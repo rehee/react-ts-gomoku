@@ -26,6 +26,7 @@ export class PieceState {
 export class GameState {
     items: PieceProp[][];
     isBlack: boolean = true;
+    isFinished: boolean = false;
 }
 export class BorderRowProp {
     items: PieceProp[];

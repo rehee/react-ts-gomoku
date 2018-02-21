@@ -8,9 +8,7 @@ class Piece extends React.Component<PieceProp, PieceState> {
         super(item);
     }
     render() {
-        console.log(this.props.checked);
         return (
-
             <div className="Piece" onClick={this.props.buttonClick} >
                 <span className={'PieceBlack' + String(this.props.isBlack) + ' ' + 'Checked' + String(this.props.checked)}>
                     X
